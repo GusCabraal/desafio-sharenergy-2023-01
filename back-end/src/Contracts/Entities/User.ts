@@ -21,3 +21,8 @@ export interface FilterUsers {
     prop: 'name' | 'email' | 'username';
     value: string
   }
+
+  export interface LoginUser {
+    username: string;
+    password: string;
+  }
