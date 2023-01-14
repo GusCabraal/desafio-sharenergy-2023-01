@@ -16,3 +16,8 @@ export interface User {
         thumbnail: string
     }
 }
+
+export interface FilterUsers {
+    prop: 'name' | 'email' | 'username';
+    value: string
+  }
