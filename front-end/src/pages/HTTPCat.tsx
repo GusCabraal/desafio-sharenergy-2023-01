@@ -1,13 +1,13 @@
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { useQuery } from "react-query";
+import { api } from "../axios/config";
 
-export function HTTPCat() {
+export function HTTPCat() {  
+    
   return (
     <>
       <Header />
-      <div className="min-h-screen">
-        <h1>HTTPCat</h1>;
-      </div>
       <Footer />
     </>
   );
