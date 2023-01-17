@@ -17,7 +17,7 @@ export function RandomDog() {
       staleTime: 1000 * 60, // 1 minuto,
     }
   );
-
+    
   return (
     <>
       <Header />

@@ -8,7 +8,7 @@ const repository = new randomDogRepository()
 const service = new randomDogService(repository)
 const controller = new randomDogController(service)
 
-randomDogRoutes.get('', controller.findUsersByPageId)
+randomDogRoutes.get('', controller.getRandomDog)
 
 export {
     randomDogRoutes,
